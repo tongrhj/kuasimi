@@ -46,10 +46,21 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+	a.logo {
+		display: flex;
+		align-items: center;
+	}
+
+	a.logo img {
+		margin-right: 1rem;
+		width: 16px;
+		height: 16px;
+	}
 </style>
 
 <nav>
 	<ul>
-		<li><a aria-current="{segment === undefined ? 'page' : 'page'}" href=".">kua simi</a></li>
+		<li><a class="logo" href="https://kuasimi.com"><img src="./favicon.png" alt="Logo of kuasimi.com" />kua simi</a></li>
 	</ul>
 </nav>

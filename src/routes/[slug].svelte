@@ -2,7 +2,7 @@
 	export async function preload({ params }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].svelte
-		const res = await this.fetch(`app/${params.slug}.json`);
+		const res = await this.fetch(`${params.slug}.json`);
 		const data = await res.json();
 
 		if (res.status === 200) {
@@ -56,14 +56,30 @@
 		max-width: 100%;
 		margin-bottom: 0.5rem;
 	}
+
+	.primary { font-weight: bold; }
 </style>
 
 <svelte:head>
-	<title>{post.title} - Opt-out of Marketing - Kua Simi</title>
+	<title>{post.title} - Opt-out of Data Mining - Kua Simi</title>
 	<meta name="description" content="“Easily” opt-out of use of your personal data by {post.title}">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://kuasimi.com/">
+	<meta property="og:title" content="Kuasimi.com - Opt-out of Data Mining">
+	<meta property="og:description" content="“Easily” opt-out of use of your personal data for marketing by {post.title}">
+	<meta property="og:image" content="https://kuasimi.com/share.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://kuasimi.com/">
+	<meta property="twitter:title" content="Kuasimi.com - Opt-out of Data Mining">
+	<meta property="twitter:description" content="“Easily” opt-out of use of your personal data for marketing by {post.title}">
+	<meta property="og:image" content="https://kuasimi.com/share.png">
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1 class="primary">{post.title}</h1>
 
 <div class="content">
 	{@html post.html}

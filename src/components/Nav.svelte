@@ -1,5 +1,5 @@
-<script>
-	export let segment;
+<script lang="ts">
+	export let segment: string;
 </script>
 
 <style>
@@ -7,6 +7,7 @@
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
+		position: sticky;
 	}
 
 	ul {
@@ -62,5 +63,6 @@
 <nav>
 	<ul>
 		<li><a class="logo" href="https://kuasimi.com"><img src="./favicon.png" alt="Logo of kuasimi.com" />kua simi</a></li>
+		<li><a aria-current='{segment === "about" ? "page" : undefined}' rel="preload" href="/about">about</a></li>
 	</ul>
 </nav>

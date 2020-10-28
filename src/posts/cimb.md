@@ -1,6 +1,7 @@
 ---
 title: 'CIMB'
 slug: 'cimb'
+category: 'bank'
 ---
 
 # Opt-out of Direct Marketing
@@ -9,7 +10,7 @@ slug: 'cimb'
 
 TBD
 
-# Opt-out of Data Being Sold to Third-party Partners
+# Opt-out of Data Being Sold to Third-parties
 
 ## Methods
 

@@ -1,9 +1,10 @@
 ---
-title: 'DBS Bank / POSB'
+title: 'DBS / POSB'
 slug: 'dbs'
+category: 'bank'
 ---
 
-# Opt-out of Direct Marketing
+# Opt-out of Direct Marketing and Data Being Sold to Third-party Partners
 
 ## Method(s)
 
@@ -23,12 +24,6 @@ slug: 'dbs'
 
   ![Screenshot of DBS Marketing Opt-out form](./dbs-options.jpg)
 
-# Opt-out of Data Being Sold to Third-party Partners
-
-## Methods
-
-TBD
-
 # Learn More
 
-- [Generic DBS Privacy Policy](https://www.dbs.com/privacy/policy/default.page)
+- [DBS Privacy Policy](https://www.dbs.com/privacy/policy/default.page)

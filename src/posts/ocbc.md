@@ -1,6 +1,7 @@
 ---
 title: 'OCBC'
 slug: 'ocbc'
+category: 'bank'
 ---
 
 # Opt-out of Direct Marketing
@@ -13,7 +14,7 @@ slug: 'ocbc'
 
 - Fill in [this online form](https://internet.ocbc.com/PDPA/PDPAUnsecuredConsent/Form?id=UA&rc=INB) ("Withdraw Marketing Consent with OCBC Bank")
 
-# Opt-out of Data Being Sold to Third-party Partners
+# Opt-out of Data Being Sold to Third-parties
 
 ## Methods
 

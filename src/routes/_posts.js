@@ -10,6 +10,7 @@ const posts = fs.readdirSync('./src/posts').map(postFilename => {
   return {
     title: postFrontMatter.attributes.title,
     slug: postFrontMatter.attributes.slug,
+    category: postFrontMatter.attributes.category,
     html: marked(postFrontMatter.body)
   }
 });

@@ -1,6 +1,7 @@
 ---
 title: 'UOB (United Overseas Bank)'
 slug: 'uob'
+category: 'bank'
 ---
 
 # Opt-out of Direct Marketing and Data Being Sold to Third-party Partners

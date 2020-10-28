@@ -17,20 +17,6 @@
 		if (typeof s !== 'string') return ''
 		return s.charAt(0).toUpperCase() + s.slice(1)
 	}
-
-	let badWordIndex = 0
-
-	setInterval(() => {
-		if (badWordIndex > 3) {
-			badWordIndex = 0
-		} else {
-			badWordIndex += 1
-		}
-	}, 3000);
-
-	const BAD_WORDS = ['marketing', 'data mining', 'spam', 'tracking', 'data selling']
-
-	$: badWord = BAD_WORDS[badWordIndex]
 </script>
 
 <style>
@@ -63,10 +49,7 @@
 	}
 
 	.primary {
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-image: linear-gradient(90deg,rgb(255, 62,0),rgb(200, 15, 0));
+		color: rgb(255, 62,0);
 	}
 
 	@media (min-width: 480px) {
@@ -81,7 +64,7 @@
 </style>
 
 <svelte:head>
-	<title>Kua Simi - Opt-out of Data Mining</title>
+	<title>About Kua Simi</title>
 	<meta name="description" content="“Easily” opt-out of use of your personal data for marketing. Supports Singapore's most popular apps. No signup required!">
 
 	<!-- Open Graph / Facebook -->
@@ -100,24 +83,11 @@
 </svelte:head>
 
 <div class="content">
-	<h1>
-		Opt-out of <br/><span class="primary">{badWord}</span>
-	</h1>
-	<h2> 
-		“Easily” withdraw consent for marketing. Control which third-parties get your data
-	</h2>
-	<p>Starting with some 🇸🇬 Singapore apps and growing over time...</p>
-</div>
+	<h1>About <span class="primary">Kua Simi</span></h1>
+    
+    <p>
+        Contact the admin at <a href="mailto:ahkong@kuasimi.com">ahkong@kuasimi.com</a>
+    </p>
 
-{#each categories as category}
-	<h3>{capitalize(category)}</h3>
-	<ul>
-		{#each categoryPosts(category) as post}
-			<!-- we're using the non-standard `rel=prefetch` attribute to
-			tell Sapper to load the data for the page as soon as
-			the user hovers over the link or taps it, instead of
-			waiting for the 'click' event -->
-			<li><a rel="prefetch" href="{post.slug}">{post.title}</a></li>
-		{/each}
-	</ul>
-{/each}
+    <p>Personal project of <a href="https://jaredtong.com">Jared Tong</a></p>
+</div>

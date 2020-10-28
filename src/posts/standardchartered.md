@@ -1,6 +1,7 @@
 ---
 title: 'Standard Chartered Bank (SC)'
 slug: 'scb'
+category: 'bank'
 ---
 
 # Opt-out of Direct Marketing
@@ -9,7 +10,7 @@ slug: 'scb'
 
 - Contact branch or relationship manager
 
-# Opt-out of Data Being Sold to Third-party Partners
+# Opt-out of Data Being Sold to Third-parties
 
 ## Methods
 
@@ -17,4 +18,4 @@ TBD
 
 # Learn More
 
-- [Generic Standard Chartered Privacy Policy](https://www.sc.com/sg/privacy/)
+- [Standard Chartered Privacy Policy](https://www.sc.com/sg/privacy/)

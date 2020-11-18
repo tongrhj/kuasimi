@@ -84,10 +84,14 @@
 
 <div class="content">
 	<h1>About <span class="primary">Kua Simi</span></h1>
+
+	<p>
+		We read the Privacy Policies of the most popular web apps and services that Singaporeans use so that you don't have to.
+	</p>
     
     <p>
         Contact the admin at <a href="mailto:ahkong@kuasimi.com">ahkong@kuasimi.com</a>
-    </p>
-
+	</p>
+	
     <p>Personal project of <a href="https://jaredtong.com">Jared Tong</a></p>
 </div>

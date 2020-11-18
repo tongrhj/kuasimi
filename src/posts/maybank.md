@@ -16,7 +16,7 @@ category: 'bank'
 
 # Opt-out of Data Being Sold to Third-parties
 
-## Methods
+## Method(s)
 
 TBD
 

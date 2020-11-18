@@ -6,7 +6,7 @@ category: 'ecommerce'
 
 # Opt-out of Direct Marketing
 
-## Methods(s)
+## Method(s)
 
 - In-app
 - Website

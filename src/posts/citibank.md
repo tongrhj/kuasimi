@@ -13,11 +13,11 @@ category: 'bank'
 
 ## Instructions
 
-- If choosing by mail, fill in [this form](https://www.citibank.com.sg/global_docs/pdf/CB_GPP_Brochure_190617.pdf) ("Safeguarding your privacy") and mail it to `Citibank Singapore Ltd ATTN: CUSTOMER CORRESPONDENCE SERVICES UNIT Robinson Road P.O. Box 330Singapore 900630`
+- If choosing by mail, fill in [this form](https://www.citibank.com.sg/global_docs/pdf/CB_GPP_Brochure_190617.pdf) ("Safeguarding your privacy") and mail it to `Citibank Singapore Ltd ATTN: CUSTOMER CORRESPONDENCE SERVICES UNIT Robinson Road P.O. Box 330 Singapore 900630`
 
 # Opt-out of Data Being Sold to Third-parties
 
-## Methods
+## Method(s)
 
 TBD
 

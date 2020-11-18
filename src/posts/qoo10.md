@@ -6,7 +6,7 @@ category: 'ecommerce'
 
 # Opt-out of Direct Marketing
 
-## Methods(s)
+## Method(s)
 
 - In-app / Website
 - Website
@@ -16,7 +16,7 @@ category: 'ecommerce'
 
 Qoo10 does not "sell or rent your personal information to third parties for their marketing purposes without your explicit consent".
 
-## Methods(s)
+## Method(s)
 
 - Email: `privacy@qoo10.com`
 

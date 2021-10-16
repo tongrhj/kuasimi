@@ -19,7 +19,7 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Opt-out of data misuse: contact the Data Protection Officers of 🇸🇬 Singapore businesses"
+          content="Contact the Data Protection Officers of 🇸🇬 Singapore businesses"
         />
         {/* <meta
           property="og:image"

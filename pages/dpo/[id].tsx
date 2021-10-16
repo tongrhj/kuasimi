@@ -19,7 +19,7 @@ export default function Post({
         <title>{postData.title}</title>
         <meta
           name="description"
-          content={`Contact the Data Protection Officer of 🇸🇬 ${postData.title} - KUA SIMI Opt-out of Data Misuse in Singapore's businesses`}
+          content={`Contact the Data Protection Officer of 🇸🇬 ${postData.title} - KUA SIMI`}
         />
       </Head>
       <article>

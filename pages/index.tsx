@@ -26,7 +26,7 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Opt-out of Data Misuse: Contact the Data Protection Officers of 🇸🇬 Singapore's businesses{' '}
+          Contact the Data Protection Officers of 🇸🇬 Singapore's businesses{' '}
           <Link href="/about"><a>Learn more</a></Link>
         </p>
       </section>

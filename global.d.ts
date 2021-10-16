@@ -1,4 +1,4 @@
 declare module 'remark-html' {
-  const html: string
+  const html: any
   export default html
 }

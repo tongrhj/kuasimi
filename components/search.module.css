@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+}
+
+.search {
+  border: 1px solid #666;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.results {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.result {
+  background: white;
+  border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+  margin: 0 0 12px;
+  padding: 1rem;
+  display: block;
+  will-change: box-shadow;
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 200ms;
+}
+
+.result:hover {
+  box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+}
+
+.result a {
+  color: black;
+}
